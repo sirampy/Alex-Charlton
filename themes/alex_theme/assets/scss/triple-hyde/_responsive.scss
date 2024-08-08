@@ -98,8 +98,10 @@
     margin-left: $content-margin-left;
     margin-right: $content-margin-right;
     max-width: $content-max-width;
+    width: $content-width;
   }
   .layout-reverse {
+    display: flex;
     .sidebar {
       left: auto;
       right: 0;

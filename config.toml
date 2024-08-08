@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Alex Charlton'
+theme = 'alex_theme'
+
+[params]
+layoutReverse = true
+
+[params.social]
+github = "sirampy"
+linkedin = "alexander-charlton-404186259/"
+email = "ac5522@ic.ac.uk"
+
+[[menu.main]]
+name = "My Projects"
+identifier = "projects"
+weight = 200
+url = "/projects/"
+
+[[menu.main]]
+name = "about me"
+identifier = "about"
+weight = 100
+url = "/about/"

@@ -1,0 +1,70 @@
+@use "sass:map";
+@function color($color,$tone){
+
+    @if map-has-key($palettes,$color){
+        $color: map-get($palettes,$color);
+
+            @if map-has-key($color,$tone){
+                $tone: map-get($color,$tone);
+                @return $tone;
+            }
+
+            @warn "unknown tone `#{$tone}` in color";
+            @return null;        
+    }
+
+    @warn "unknown color `#{$color}` in palette";
+    @return null;
+}
+$palettes: (
+    gray: (
+        bg:       #24283b,
+        bg-dark:  #1f2335,
+        bg-highlight: #292e42,
+        fg:       #c0caf5,
+        fg-dark:  #a9b1d6,
+        fg-gutter:#3b4261,
+        0: #fafafa,
+        1: #f9f9f9,
+        2: #eee,
+        3: #ddd,
+        4: #ccc,
+        5: #bbb,
+        6: #878787,
+        7: #767676,
+        8: #515151,
+        9: #313131
+    ),
+    white: (
+        base: #fff
+    ),
+    red: (
+      base: #ac4142
+    ),
+    orange: (
+      base: #d28445
+    ),
+    yellow: (
+      base: #f4bf75
+    ),
+    green: (
+      base: #90a959
+    ),
+    cyan: (
+      base: #75b5aa
+    ),
+    blue: (
+        royal:   #4169E1,
+        dark:    #292e42,
+        base:    #237780,
+        light:   #237780,
+        lighter: #48525C
+    ),
+    brown: (
+      base: #8f5536
+    ),
+    purple: (
+      royal: #300030,
+      base: #76c
+    )
+);

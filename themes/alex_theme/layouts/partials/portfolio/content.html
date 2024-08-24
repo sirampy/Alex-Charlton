@@ -39,7 +39,11 @@
                 </div>
                 <div class="col-md-8 col-sm-8 col-xs-12">
                     <span class="project__title">
+                        {{ if .Params.article }}
                         <a href="{{ .RelPermalink }}" target="_self" rel="noopener noreferrer">{{ .Title }}</a>
+                        {{ else }}
+                        <a href="{{ .Params.Link }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+                        {{ end }}
                     </span>
                     <span class="project__subtitle-small">
                         <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>

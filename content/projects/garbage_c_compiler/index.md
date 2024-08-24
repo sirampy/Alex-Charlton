@@ -6,8 +6,8 @@ screenshot: featured.png
 date: '2024-03-19'
 layout: 'portfolio'
 draft: false
+article: true
 ---
-I worked in a team of 2 to create a c90 to risc-v compiler. it used flex and bison to generate the lexer and parser, generating a c++ abstract syntax tree. we managed to implement a large subset of the source language over the 4 weeks we had to complete our compiler, ranging from all of the major operators for int float and double data types, strings, arrays and all of c90's control flow statements. the project was a resounding success, with our compiler passing over 90% of the seen test-cases, one of the highest pass rates in the cohort.  
 *(sadly I will not share my source code in the interest of upholding academic integrity by not posting solutions to an ongoing piece of coursework)*
 
 ## that's all well and good, but how exactly does a compiler work (skip this if you know how a compiler works)?

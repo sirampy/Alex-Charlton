@@ -1,1 +1,1 @@
-I wrote a perl based framework for simulating transaction level logic models.
+I wrote a framework for simulating transaction level logic models. It works by generating a graph defined by the description language which, when simulated, passes data between the nodes, excecuting user defined code to generate each node's output signals. I created this as a I wanted to have a go at creating a hardware language with no prior knowlege in compilers or HDL simulators.

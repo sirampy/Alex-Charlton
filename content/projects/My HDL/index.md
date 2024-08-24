@@ -1,10 +1,9 @@
 ---
 title: "My HDL"
 description: "HDL Simulator"
-link: https://github.com/LangProc/langproc-2023-cw-Garbage_C_Compiler_GCC
+link: https://github.com/sirampy/MyHDL
 screenshot: dera.png
 date: '2024-03-19'
 layout: 'portfolio'
-draft: true
+draft: false
 ---
-I wrote a framework for simulating transaction level logic models.

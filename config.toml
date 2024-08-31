@@ -5,6 +5,7 @@ theme = 'alex_theme'
 
 [params]
 layoutReverse = true
+postNavigation = false
 
 [params.social]
 github = "sirampy"

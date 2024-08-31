@@ -29,7 +29,7 @@
     <section>
         <div class="portfolio_content">
             <hr class="divider">
-            {{ range (where .Data.Pages "Params.featured" "!=" true).ByDate.Reverse }}
+            {{ range (where .Data.Pages "Params.featured" "!=" true).ByWeight.Reverse }}
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-12" href="{{ .Params.link }}"
                     target="_blank" rel="noopener noreferrer">

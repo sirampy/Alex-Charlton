@@ -6,6 +6,7 @@ date: '2024-03-19'
 layout: 'portfolio'
 draft: false
 article: true
+weight: 85
 ---
 *(sadly I will not share my source code in the interest of upholding academic integrity by not posting solutions to an ongoing piece of coursework)*
 

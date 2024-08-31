@@ -1,11 +1,10 @@
 ---
-title: "Balance Bot"
-description: "A self balancing robot that solves orthgonal mazes"
+title: "FinSim"
+description: "An educational webapp for teaching basic markets to young children"
 link: https://github.com/qduff/ee2project
-date: '2024-03-19'
+date: '2024-01-19'
 layout: 'portfolio'
 draft: true
+weight: 30
 ---
 
-I worked in a team of 5 to develop a cloud hosted, multiplayer Asteroids game, using an FPGA dev-kit as a controller.
-This is my full article explaining how it works.

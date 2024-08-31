@@ -2,7 +2,6 @@
 title: "RISC-V CPU"
 description: "A RISC-V CPU implemented in sysem verilog"
 link: https://github.com/sirampy/Team22
-screenshot: dera.png
 date: '2024-03-19'
 layout: 'portfolio'
 draft: false

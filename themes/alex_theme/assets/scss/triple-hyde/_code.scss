@@ -21,24 +21,24 @@ pre {
 	border-radius: 4px;
 	padding: 2px 4px;
 	color: #bf616a;
-	background-color: #f9f2f4;
+	background-color: color(gray, bg-dark);
 }
 
 %code-style-codersblock {
 	padding: 2px 4px;
 	border: 1px dotted #adb5db;
-	background-color: $gray-1;
+	background-color: color(gray, bg-dark);
 }
 
 %code-style-npf {
 	padding: .1em .1em;
-	color: #ab5979;
+	color: color(gray, fg);
 	border-radius: 3px;
 }
 
 a {
 	code {
-		color: $link-color;
+		color: color(gray, fg);
 	}
 }
 

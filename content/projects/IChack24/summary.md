@@ -1,1 +1,1 @@
-I developed a flask based web app in a team of 6 for ICHack24. The
+I developed a flask based web app in a team of 6 for ICHack24. The premise was to allow students to explore different assets in a simulated investment environment. The App was based on a simple API driven model, where the game main webpage several API calls to get the necessary assets, and interface with the game logic, using a session system to distinguish between users.

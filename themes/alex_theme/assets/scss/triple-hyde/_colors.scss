@@ -16,6 +16,7 @@
     @warn "unknown color `#{$color}` in palette";
     @return null;
 }
+// theme: tokio night - storm
 $palettes: (
     gray: (
         bg:       #24283b,
